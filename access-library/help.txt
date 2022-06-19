@@ -1,0 +1,32 @@
+1. Install Angular :
+http://www.luv2code.com/angular-install-guides
+npm install -g @angular/cli
+
+ng version
+
+ng new access-library    
+
+ng serve
+
+https://getbootstrap.com/
+
+ng serve --open
+
+ng generate component components/book-list
+
+ng generate class common/product
+
+ng generate service services/book
+
+tsc : compile typescript
+
+npm install bootstrap
+
+npm install @fortawesome/fontawesome-free
+
+Okta:
+ng generate interface config/MyAppConfig
+
+npm install @okta/okta-signin-widget
+
+npm install @okta/okta-angular

@@ -1,0 +1,21 @@
+<div class="main-content">
+    <div class="section-content section-content-p30">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- loop over the collection of books -->
+                <div *ngFor="let tempBook of books" class="col-md-3">
+
+                    <div class="product-box">
+                        <img src="assets/images/placeholder.png" class="img-responsive">
+                        <h1>{{ tempBook.title }}
+                        <br/>
+                        <div class="author">{{ tempBook.author}}</div>
+                        </h1>                        
+                        <a href="#" class="primary-btn">Add to cart</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
