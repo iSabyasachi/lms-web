@@ -30,3 +30,5 @@ ng generate interface config/MyAppConfig
 npm install @okta/okta-signin-widget
 
 npm install @okta/okta-angular
+
+ng generate component components/login
