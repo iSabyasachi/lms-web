@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: `<app-parent-comp></app-parent-comp>`,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'access-library';
+  
+  constructor(){}
 }
